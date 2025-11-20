@@ -60,9 +60,7 @@ function App(): React.JSX.Element {
 
   const animatedStyle = useAnimatedStyle(() => {
     if (!init.get()) {
-      return {
-        height: 1000,
-      };
+      return {};
     }
 
     return {
